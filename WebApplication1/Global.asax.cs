@@ -14,7 +14,7 @@ namespace WebApplication1
         //latest
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas(); //test444
+            AreaRegistration.RegisterAllAreas() //test444
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
